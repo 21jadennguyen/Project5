@@ -1,0 +1,56 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/backgroundColor"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/waterIntakeInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter water intake (ml)"
+        android:inputType="number"
+        android:backgroundTint="@color/primaryColor"
+        android:textColor="@color/primaryColor"/>
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Entry"
+        android:backgroundTint="@color/primaryColor"
+        android:textColor="@color/textColor"/>
+
+    <ImageView
+        android:id="@+id/photoImageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="16dp"
+        android:scaleType="centerCrop"
+        android:visibility="gone"/> <!-- Initially hidden -->
+
+    <Button
+        android:id="@+id/showDrawableButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Daily Photo"
+        android:backgroundTint="@color/primaryColor"
+        android:textColor="@color/textColor"/>
+
+    <TextView
+        android:id="@+id/averageIntakeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Average Intake: 0 ml"
+        android:textColor="@color/primaryColor"
+        android:layout_marginTop="16dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>

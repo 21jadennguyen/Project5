@@ -1,0 +1,26 @@
+<resources>
+    <!-- Primary Colors -->
+    <color name="primary_color">#6200EE</color> <!-- Purple -->
+    <color name="primary_dark_color">#3700B3</color> <!-- Dark Purple -->
+    <color name="primary_light_color">#BB86FC</color> <!-- Light Purple -->
+
+    <!-- Background Colors -->
+    <color name="background_color">#FFFFFF</color> <!-- White -->
+    <color name="card_background">#F5F5F5</color> <!-- Light Gray -->
+
+    <!-- Text Colors -->
+    <color name="text_color">#000000</color> <!-- Black -->
+    <color name="text_light_color">#666666</color> <!-- Gray -->
+
+    <!-- Accent Colors -->
+    <color name="accent_color">#03DAC5</color> <!-- Teal -->
+
+    <!-- Error Color -->
+    <color name="error_color">#B00020</color> <!-- Red -->
+
+    <color name="primaryColor">#2196F3</color> <!-- Blue -->
+    <color name="primaryDarkColor">#1976D2</color> <!-- Darker Blue -->
+    <color name="accentColor">#FF4081</color> <!-- Pink Accent -->
+    <color name="textColor">#FFFFFF</color> <!-- White Text -->
+    <color name="backgroundColor">#E3F2FD</color> <!-- Light Blue Background -->
+</resources>
